@@ -5,6 +5,9 @@ import { signWithP12 } from '@documenso/pdf-sign';
 import { addSigningPlaceholder } from '../helpers/add-signing-placeholder';
 import { updateSigningPlaceholder } from '../helpers/update-signing-placeholder';
 
+console.log("CERTIFICATE FILE")
+console.log("PATH:", __dirname)
+
 export type SignWithLocalCertOptions = {
   pdf: Buffer;
 };
